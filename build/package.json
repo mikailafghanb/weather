@@ -1,0 +1,42 @@
+{
+  "name": "cuaca",
+  "version": "1.0.0",
+  "description": "Cuaca",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-loader": "7.1.5",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "copy-webpack-plugin": "4.6.0",
+    "css-loader": "^3.3.2",
+    "file-loader": "^5.0.2",
+    "html-loader": "^0.5.5",
+    "liferay-npm-build-support": "^2.13.3",
+    "liferay-npm-bundler": "^2.13.3",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.2",
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0",
+    "webpack-dev-server": "3.2.1"
+  },
+  "dependencies": {
+    "cuaca$bootstrap": "^4.4.1",
+    "cuaca$react": "16.8.6",
+    "cuaca$react-dom": "16.8.6",
+    "cuaca$weather-icons2": "^2.0.10"
+  },
+  "scripts": {
+    "build": "babel --source-maps -d build src && npm run copy-assets && liferay-npm-bundler",
+    "copy-assets": "lnbs-copy-assets",
+    "start": "lnbs-start"
+  },
+  "portlet": {
+    "com.liferay.portlet.display-category": "category.sample",
+    "com.liferay.portlet.header-portlet-css": "/css/styles.css",
+    "com.liferay.portlet.instanceable": true,
+    "javax.portlet.name": "cuaca",
+    "javax.portlet.security-role-ref": "power-user,user",
+    "javax.portlet.display-name": "Cuaca"
+  },
+  "main": "index.js"
+}

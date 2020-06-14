@@ -1,0 +1,245 @@
+{
+  "packages": {
+    "/": {
+      "dest": {
+        "dir": "./build",
+        "id": "/",
+        "name": "cuaca",
+        "version": "1.0.0"
+      },
+      "modules": {
+        "App.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "AppComponent.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "index.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": ".",
+        "id": "/",
+        "name": "cuaca",
+        "version": "1.0.0"
+      }
+    },
+    "bootstrap@4.4.1": {
+      "dest": {
+        "dir": "./build/node_modules/cuaca$bootstrap@4.4.1",
+        "id": "cuaca$bootstrap@4.4.1",
+        "name": "cuaca$bootstrap",
+        "version": "4.4.1"
+      },
+      "modules": {
+        "dist\\js\\bootstrap.bundle.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "dist\\js\\bootstrap.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": "./node_modules/bootstrap",
+        "id": "bootstrap@4.4.1",
+        "name": "bootstrap",
+        "version": "4.4.1"
+      }
+    },
+    "js-tokens@4.0.0": {
+      "dest": {
+        "dir": "./build/node_modules/cuaca$js-tokens@4.0.0",
+        "id": "cuaca$js-tokens@4.0.0",
+        "name": "cuaca$js-tokens",
+        "version": "4.0.0"
+      },
+      "modules": {
+        "index.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": "./node_modules/js-tokens",
+        "id": "js-tokens@4.0.0",
+        "name": "js-tokens",
+        "version": "4.0.0"
+      }
+    },
+    "loose-envify@1.4.0": {
+      "dest": {
+        "dir": "./build/node_modules/cuaca$loose-envify@1.4.0",
+        "id": "cuaca$loose-envify@1.4.0",
+        "name": "cuaca$loose-envify",
+        "version": "1.4.0"
+      },
+      "src": {
+        "dir": "./node_modules/loose-envify",
+        "id": "loose-envify@1.4.0",
+        "name": "loose-envify",
+        "version": "1.4.0"
+      }
+    },
+    "object-assign@4.1.1": {
+      "dest": {
+        "dir": "./build/node_modules/cuaca$object-assign@4.1.1",
+        "id": "cuaca$object-assign@4.1.1",
+        "name": "cuaca$object-assign",
+        "version": "4.1.1"
+      },
+      "src": {
+        "dir": "./node_modules/object-assign",
+        "id": "object-assign@4.1.1",
+        "name": "object-assign",
+        "version": "4.1.1"
+      }
+    },
+    "prop-types@15.7.2": {
+      "dest": {
+        "dir": "./build/node_modules/cuaca$prop-types@15.7.2",
+        "id": "cuaca$prop-types@15.7.2",
+        "name": "cuaca$prop-types",
+        "version": "15.7.2"
+      },
+      "modules": {
+        "prop-types.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": "./node_modules/prop-types",
+        "id": "prop-types@15.7.2",
+        "name": "prop-types",
+        "version": "15.7.2"
+      }
+    },
+    "react-dom@16.8.6": {
+      "dest": {
+        "dir": "./build/node_modules/cuaca$react-dom@16.8.6",
+        "id": "cuaca$react-dom@16.8.6",
+        "name": "cuaca$react-dom",
+        "version": "16.8.6"
+      },
+      "src": {
+        "dir": "./node_modules/react-dom",
+        "id": "react-dom@16.8.6",
+        "name": "react-dom",
+        "version": "16.8.6"
+      }
+    },
+    "react-is@16.12.0": {
+      "dest": {
+        "dir": "./build/node_modules/cuaca$react-is@16.12.0",
+        "id": "cuaca$react-is@16.12.0",
+        "name": "cuaca$react-is",
+        "version": "16.12.0"
+      },
+      "modules": {
+        "cjs\\react-is.development.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs\\react-is.production.min.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "umd\\react-is.development.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": "./node_modules/react-is",
+        "id": "react-is@16.12.0",
+        "name": "react-is",
+        "version": "16.12.0"
+      }
+    },
+    "react@16.8.6": {
+      "dest": {
+        "dir": "./build/node_modules/cuaca$react@16.8.6",
+        "id": "cuaca$react@16.8.6",
+        "name": "cuaca$react",
+        "version": "16.8.6"
+      },
+      "src": {
+        "dir": "./node_modules/react",
+        "id": "react@16.8.6",
+        "name": "react",
+        "version": "16.8.6"
+      }
+    },
+    "scheduler@0.13.6": {
+      "dest": {
+        "dir": "./build/node_modules/cuaca$scheduler@0.13.6",
+        "id": "cuaca$scheduler@0.13.6",
+        "name": "cuaca$scheduler",
+        "version": "0.13.6"
+      },
+      "modules": {
+        "cjs\\scheduler-tracing.development.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs\\scheduler-tracing.production.min.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs\\scheduler-tracing.profiling.min.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs\\scheduler.development.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs\\scheduler.production.min.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": "./node_modules/scheduler",
+        "id": "scheduler@0.13.6",
+        "name": "scheduler",
+        "version": "0.13.6"
+      }
+    },
+    "weather-icons2@2.0.10": {
+      "dest": {
+        "dir": "./build/node_modules/cuaca$weather-icons2@2.0.10",
+        "id": "cuaca$weather-icons2@2.0.10",
+        "name": "cuaca$weather-icons2",
+        "version": "2.0.10"
+      },
+      "src": {
+        "dir": "./node_modules/weather-icons2",
+        "id": "weather-icons2@2.0.10",
+        "name": "weather-icons2",
+        "version": "2.0.10"
+      }
+    }
+  }
+}
